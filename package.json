@@ -5,7 +5,7 @@
   "description": "Small description for super-rentals goes here",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Kelvin Kiptum Kiprop",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -22,7 +22,8 @@
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "test:server": "ember test --server"
   },
   "devDependencies": {
     "@babel/core": "^7.22.20",
